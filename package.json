@@ -4,7 +4,7 @@
   "description": "Registro de estudiantes Simposio 2025",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,9 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
   }
 }
